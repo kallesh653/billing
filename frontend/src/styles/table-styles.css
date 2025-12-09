@@ -1,0 +1,168 @@
+/* Professional Tally-Style Table Design */
+
+/* Table Base Styling */
+.ant-table {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Table Header - Professional Gradient */
+.ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border: 1px solid #374151 !important;
+  padding: 16px 12px !important;
+  text-align: center !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Body Cells */
+.ant-table-tbody > tr > td {
+  border: 1px solid #d1d5db !important;
+  padding: 12px !important;
+  font-size: 13px;
+  background-color: #ffffff;
+  vertical-align: middle !important;
+}
+
+/* Alternating Row Colors - Tally Style */
+.ant-table-tbody > tr:nth-child(odd) > td {
+  background-color: #ffffff;
+}
+
+.ant-table-tbody > tr:nth-child(even) > td {
+  background-color: #f9fafb;
+}
+
+/* Row Hover Effect */
+.ant-table-tbody > tr:hover > td {
+  background-color: #dbeafe !important;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px #3b82f6;
+  transition: all 0.2s ease;
+}
+
+/* Table Summary Row */
+.ant-table-summary > tr > td {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%) !important;
+  font-weight: 700 !important;
+  border: 1px solid #9ca3af !important;
+  padding: 14px 12px !important;
+  font-size: 14px !important;
+  color: #1f2937 !important;
+}
+
+/* Table Container */
+.ant-table-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination Styling */
+.ant-pagination {
+  margin-top: 20px !important;
+}
+
+.ant-pagination-item-active {
+  background-color: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+}
+
+.ant-pagination-item-active a {
+  color: white !important;
+}
+
+/* Card Styling */
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.ant-card-head {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-bottom: 2px solid #e2e8f0;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* Statistics Cards */
+.ant-statistic-content-value {
+  font-weight: 700 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Table Empty State */
+.ant-empty {
+  padding: 40px 0;
+}
+
+/* Loading Spinner */
+.ant-spin {
+  color: #3b82f6;
+}
+
+/* Compact Table Adjustments */
+.ant-table-small .ant-table-thead > tr > th {
+  padding: 10px 8px !important;
+  font-size: 11px !important;
+}
+
+.ant-table-small .ant-table-tbody > tr > td {
+  padding: 8px !important;
+  font-size: 12px;
+}
+
+/* Table Filters and Search */
+.ant-table-filter-trigger {
+  color: white !important;
+}
+
+.ant-table-filter-trigger:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .ant-table {
+    font-size: 12px;
+  }
+
+  .ant-table-thead > tr > th {
+    padding: 12px 8px !important;
+    font-size: 11px !important;
+  }
+
+  .ant-table-tbody > tr > td {
+    padding: 10px 8px !important;
+    font-size: 12px;
+  }
+}
+
+/* Number Alignment */
+.ant-table-cell[align="right"] {
+  text-align: right !important;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+}
+
+/* Tag Styling in Tables */
+.ant-table .ant-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Action Buttons in Tables */
+.ant-table .ant-btn-sm {
+  font-size: 12px;
+  height: 28px;
+  padding: 0 12px;
+}
